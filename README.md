@@ -14,3 +14,5 @@ npm init
 
 -- Installing prisma 
    - npm i prisma
+- Initializing Prisma
+    - $ npx prisma init --datasource-provider sqlite
