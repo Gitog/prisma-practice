@@ -16,3 +16,7 @@ npm init
    - npm i prisma
 - Initializing Prisma
     - $ npx prisma init --datasource-provider sqlite
+- Run a migration and give the migration a name "init"
+     - npx prisma migrate dev --name init
+- Create a typescript file named "index" from which i run prisma queries
+-Execute the index file using  'npx ts-node index.ts'
